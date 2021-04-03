@@ -8,3 +8,6 @@ yarn add express
 
 Ferramenta que atualiza o servidor node sempre que a uma modificação no cod.
 yarn add nodemon -D
+
+Dependencia que ajuda na criação de ids
+yarn add uuidv4
