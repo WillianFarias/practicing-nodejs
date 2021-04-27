@@ -20,7 +20,10 @@ Dependencia que ajuda na criação de ids.
 yarn add uuidv4
 ```
 
-
+Permite que nossa api seja acessa por qualquer front independente da sua url.
+```bash
+yarn add cors
+```
 
 
 
