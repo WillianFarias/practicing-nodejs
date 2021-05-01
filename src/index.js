@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const { v4, validate } = require('uuid');
 
 const app = express();
 
+app.use(cors());
 //use algum tipo de func que todas as rotas teram que passar
 app.use(express.json());
 
